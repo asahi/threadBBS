@@ -111,6 +111,9 @@
                 <b><?php echo($row_topic['name']); ?>&nbsp;&nbsp;</b>
               </font> 
               <?php echo( $row_topic['created']); ?>
+              <tt>
+                <font color="#eebbee">ID:ib4SINoPzkL4</font>
+              </tt>
             </dt>
             <dd>
               <?php echo($row_topic['comment']); ?>
@@ -144,7 +147,10 @@
                   <font color="#335544"><?php echo($row_comm['name']); ?></font>
                 </b>
               </font>　
-              <?php echo($row_comm['created']); ?>　
+              <?php echo($row_comm['created']); ?>
+              <tt>
+                <font color="#eebbee">ID:8wRsMb17Wp8W</font>
+              </tt>　
             </dt>
             <dd>
               <tt>
